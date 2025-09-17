@@ -1359,9 +1359,6 @@ body {
     }
 }
 
-
-
-
 /* Extra Contact */
 .extra-contact {
     margin-top: 30px;
@@ -1558,7 +1555,7 @@ body {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 280px) {
     .sidebar {
         position: relative;
         width: 100%;
