@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+    --circle-text-light: #111;  /* dark text for light mode */
+    --circle-text-dark: #fff;   /* white text for dark mode */
+}
+
+/* ===========================
+   Light Mode (Global)
+=========================== */
+body.light-mode {
+    background-color: #f5f5f5 !important;
+    color: #111 !important;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body.light-mode .theme-toggle {
+    color: #111 !important;
+    border: none !important;
+    font-size: 24px;
+
+}
+
+/* Sidebar */
+body.light-mode .sidebar {
+    background-color: #ffffff !important;
+    color: #111 !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .sidebar-content {
+    background-color: #ffffff !important;
+    color: #111 !important;
+}
+
+body.light-mode .sidebar .profile h2,
+body.light-mode .sidebar .profile p {
+    color: #111;
+}
+
+body.light-mode .sidebar .profile .role {
+    color: #0000A3;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+body.light-mode .sidebar .nav-links a {
+    color: #111;
+    font-weight: 500;
+    transition: color 0.3s ease, background 0.3s ease;
+}
+
+body.light-mode .sidebar .nav-links a {
+    background-color: #ff9800;
+    border-radius: 10px;
+}
+
+body.light-mode .sidebar .nav-links a:hover {
+    color: #ff9800;
+    background: rgba(255, 152, 0, 0.1);
+    border-radius: 5px;
+}
+
+body.light-mode .sidebar .social-icons {
+    border-top: #e68900 2px solid;
+    background-color: #f5f5f5;
+}
+
+body.light-mode .sidebar .social-icons i {
+    color: #111;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+body.light-mode .sidebar .social-icons i.facebook:hover {
+    color: #1877F2;
+    transform: scale(1.2);
+}
+
+body.light-mode .sidebar .social-icons i.instagram:hover {
+    color: #E4405F;
+    transform: scale(1.2);
+}
+
+body.light-mode .sidebar .social-icons i.github:hover {
+    color: #333;
+    transform: scale(1.2);
+}
+
+body.light-mode .sidebar .social-icons i.linkedin:hover {
+    color: #0A66C2;
+    transform: scale(1.2);
+}
+
+body.light-mode .sidebar .social-icons i.youtube:hover {
+    color: #FF0000;
+    transform: scale(1.2);
+}
+
+/* ===========================
+   Main Content
+=========================== */
+body.light-mode .content,
+body.light-mode .content section,
+body.light-mode .content .hero,
+body.light-mode #hero {
+    background-color: #f5f5f5 !important;
+    background-image: none !important;
+    color: #111 !important;
+}
+
+body.light-mode .content h2 {
+    color: #111 !important;
+}
+
+body.light-mode .content p,
+body.light-mode .content .tech-item span,
+body.light-mode .content .timeline-item .timeline-content p,
+body.light-mode .content .skill-bar-container .cicle {
+    color: #111 !important;
+}
+
+body.light-mode .content .skill-bar-container .cicle {
+    color: #111 !important;
+}
+
+body.light-mode .content .timeline-item  {
+    color: #111 !important;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+body.light-mode .content #hero-role {
+    color: #0000A3 !important;
+}
+
+body.light-mode .content .skill-item .skill-name {
+    color: #111 !important;
+}
+
+body.light-mode .content .skill-item .skill-bar-container,
+body.light-mode .content .skill-item .circle {
+    background: transparent !important;
+    color: #111 !important;
+}
+
+
+body.light-mode .content h1 {
+    color: #ff9800 !important;
+}
+
+/* Buttons */
+body.light-mode .btn,
+body.light-mode .btn-resume,
+body.light-mode .btn-hire {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+body.light-mode .btn:hover,
+body.light-mode .btn-resume:hover,
+body.light-mode .btn-hire:hover {
+    background-color: #e68900;
+}
+
+/* Skills */
+body.light-mode .skill-bar-container {
+    background-color: #ddd;
+}
+
+body.light-mode .progress-fill {
+    background-color: #ff9800;
+}
+
+/* Details table */
+body.light-mode .details table th,
+body.light-mode .details table td {
+    color: #111;
+}
+
+/* ===========================
+   Cards & Sections
+=========================== */
+body.light-mode .project-card,
+body.light-mode .timeline-item,
+body.light-mode .cert-card,
+body.light-mode .testimonial-card,
+body.light-mode .testimonial-card h4 {
+    background-color: #fff;
+    color: #111;
+    transition: all 0.3s ease;
+}
+
+body.light-mode .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* GitHub Stats */
+body.light-mode .github-stats-section {
+    background-color: #f9f9f9;
+}
+
+body.light-mode .github-stats-section .github-stats-counter{
+    background-color: #fff;
+    color: #111;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .github-stats-section .follow-info span,
+body.light-mode .github-stats-counters .stat-card,
+body.light-mode .github-stats-section .cta-buttons a{
+    background: #0066f6;
+    color: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+body.light-mode #stats .stats-grid .stat-card{
+    background: #ff9800;
+    color: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+body.light-mode .top-repos li,
+body.light-mode .top-repos li a{
+    color: #0066f6 !important;
+    background-color: #fff !important;
+}
+
+body.light-mode .top-repos li:hover,
+body.light-mode .top-repos li a :hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+    background: transparent;
+}
+
+body.light-mode .github-stats-counters .stat-card h3,
+body.light-mode #stats .stats-grid .stat-card h3{
+    color: #fff;
+}
+
+body.light-mode #stats .stats-grid .stat-card i{
+    color: #0000A3;
+}
+
+body.light-mode .github-stats-counters .stat-card p{
+    color: #ff9800 !important;
+}
+
+/* ===========================
+   Footer
+=========================== */
+body.light-mode .footer {
+    background-color: #ffffff;
+    color: #111;
+    border-top: 1px solid #ccc;
+}
+
+body.light-mode .footer a {
+    color: #111;
+}
+
+body.light-mode .footer a:hover {
+    color: #ff9800;
+}
+
+/* ===========================
+   Contact Form
+=========================== */
+body.light-mode .contact-form input,
+body.light-mode .contact-form textarea {
+    background-color: #fff;
+    color: #111;
+    border: 1px solid #ccc;
+}
+
+body.light-mode .contact-form button {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+body.light-mode .contact-form button:hover {
+    background-color: #e68900;
+}
+
+/* ===========================
+   Utilities
+=========================== */
+body.light-mode .back-to-top {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+/* Smooth theme transitions */
+.sidebar,
+.footer,
+.btn,
+.project-card,
+.testimonial-card,
+.cert-card,
+.timeline-item,
+.skill-bar-container,
+.contact-form input,
+.contact-form textarea {
+    transition: all 0.3s ease;
+}
