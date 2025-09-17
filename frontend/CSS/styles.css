@@ -37,7 +37,7 @@ body {
 
 
 .sidebar-toggle {
-    display: block;
+    display: none;
     position: fixed;
     top: 20px;
     left: 20px;
@@ -1516,28 +1516,29 @@ body {
     .sidebar-overlay.active {
         display: block;
     }
-    
+
     .project-card {
         display: flex;
         justify-content: center;
         align-items: center;
-    position: relative;
-    padding-bottom: 20px; /* extra space so button doesn't overlap content */
-    min-height: auto;
-  }
+        position: relative;
+        padding-bottom: 20px;
+        /* extra space so button doesn't overlap content */
+        min-height: auto;
+    }
 
-  /* Force the button to be visible & full-width on mobile */
-  .project-card .project-btn,
-  .project-card .project-btn.live-demo {
-    opacity: 1 !important;
-    pointer-events: auto !important;
-    width: 50% !important;
-    margin-top: 12px;
-    padding: 10px 14px;
-    box-shadow: none;
-    font-size: 18px;
-  }
-  
+    /* Force the button to be visible & full-width on mobile */
+    .project-card .project-btn,
+    .project-card .project-btn.live-demo {
+        opacity: 1 !important;
+        pointer-events: auto !important;
+        width: 50% !important;
+        margin-top: 12px;
+        padding: 10px 14px;
+        box-shadow: none;
+        font-size: 18px;
+    }
+
     .skills-list,
     .project-grid,
     .timeline,
@@ -1559,23 +1560,23 @@ body {
 
 @media (max-width: 480px) {
     .sidebar {
-    position: relative; 
-    width: 100%;        
-    left: 0;            
-    top: 0;
-    z-index: auto;
-    background-color: #fff; 
-  }
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: auto;
+        background-color: #fff;
+    }
 
-  .hero {
-    margin-top: 20px; 
-  }
+    .hero {
+        margin-top: 20px;
+    }
 
-  .sidebar-toggle {
-    display: none;
-    opacity: 0;
-  }
-    
+    .sidebar-toggle {
+        display: block;
+        opacity: 0;
+    }
+
     #hero {
         padding: 50px 15px;
     }
