@@ -1556,8 +1556,9 @@ body {
     }
 }
 
-@media screen and (max-width: 480px) {
-  .sidebar {
+
+@media (max-width: 480px) {
+    .sidebar {
     position: relative; 
     width: 100%;        
     left: 0;            
@@ -1574,10 +1575,7 @@ body {
     display: none;
     opacity: 0;
   }
-}
-
-
-@media (max-width: 480px) {
+    
     #hero {
         padding: 50px 15px;
     }
