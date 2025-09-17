@@ -1556,7 +1556,7 @@ body {
     }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 480px) {
   .sidebar {
     position: relative; 
     width: 100%;        
